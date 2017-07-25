@@ -27,8 +27,7 @@ h2{
 }
 
 img{
-    margin-left: 305px;
-    margin-top: 45px;
+    padding: 20px;
     opacity: 1;
     transition: .8s;
 }
@@ -36,6 +35,11 @@ img{
 img:hover{
     opacity: 0.5;
     transition: .8s;
+}
+
+section{
+    margin-left: 290px;
+    margin-top: 10px
 }
 
 wrapper{
