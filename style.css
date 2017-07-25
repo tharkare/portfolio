@@ -1,0 +1,51 @@
+h1{
+    padding-left: 300px;
+    font-family: letter-gothic-std, monospace;
+    font-style: normal;
+    font-weight: 400;  
+}
+
+nav a{
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-family: letter-gothic-std, monospace;
+    font-style: normal;
+    font-weight: 400;  
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    color: gray;
+    padding-left: 1100px;
+    font-family: letter-gothic-std, monospace;
+    font-style: normal;
+    font-weight: 400;  
+}
+
+img{
+    margin-left: 305px;
+    margin-top: 45px;
+    opacity: 1;
+    transition: .8s;
+}
+
+img:hover{
+    opacity: 0.5;
+    transition: .8s;
+}
+
+wrapper{
+    position: relative;
+}
+
+text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
